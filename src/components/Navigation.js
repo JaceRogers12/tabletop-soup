@@ -3,7 +3,7 @@ import React from "react";
 
 function Navigation() {
     return (
-        <div > {/*The divs below need to be replaced with Links. */}
+        <div className="navigation" > {/*The divs below need to be replaced with Links. */}
             <div >Home </div>
             <div >Community </div>
             <div >{"Login" || "Profile"}</div> {/*It should show login if the user isn't logged in and profile if they are */}
