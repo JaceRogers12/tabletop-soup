@@ -1,7 +1,7 @@
 .header {
   text-align: center;
   font-size: 40px;
-  margin: 15px;
+  padding: 10px;
   border: 2px dashed red;
 }
 
@@ -12,12 +12,24 @@
 
 .navigation {
   border: 2px dashed yellow;
-}
-
-.footer {
-  border: 2px dashed purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3px;
+  margin-bottom: 10px;
 }
 
 .content {
   border: 2px dashed blue;
+  padding: 5px;
+}
+
+.section {
+  border: 2px dashed green;
+  padding: 5px;
+}
+
+.footer {
+  border: 2px dashed purple;
+  padding: 5px;
 }
