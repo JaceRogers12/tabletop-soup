@@ -5,7 +5,7 @@ import Updates from "./home/Updates.js";
 
 function Home() {
     return (
-        <div className="home">
+        <div className="home content">
             <Summary />
             <FindUs />
             <Updates />

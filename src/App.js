@@ -1,6 +1,8 @@
 import Header from "./components/Header.js";
 import Navigation from "./components/Navigation.js";
 import Home from "./components/Home.js";
+import Community from "./components/Community.js";
+import Profile from "./components/Profile.js";
 import Footer from "./components/Footer.js";
 import { Routes, Route } from "react-router-dom";
 
@@ -11,6 +13,8 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={ <Home />} />
+        <Route path="community" element={ <Community /> } />
+        <Route path="profile" element={ <Profile /> } />
       </Routes>
       <Footer />
     </div>

@@ -33,3 +33,7 @@
   border: 2px dashed purple;
   padding: 5px;
 }
+
+.navLink {
+  background-color: lightcyan;
+}
